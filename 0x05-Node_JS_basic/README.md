@@ -1,16 +1,3 @@
+# 0x05. NodeJS Basics
 
-
-Introduction to Node.js
-Node.js is an open-source and cross-platform JavaScript runtime environment. It is a popular tool for almost any kind of project!
-
-Node.js runs the V8 JavaScript engine, the core of Google Chrome, outside of the browser. This allows Node.js to be very performant.
-
-A Node.js app runs in a single process, without creating a new thread for every request. Node.js provides a set of asynchronous I/O primitives in its standard library that prevent JavaScript code from blocking and generally, libraries in Node.js are written using non-blocking paradigms, making blocking behavior the exception rather than the norm.
-
-When Node.js performs an I/O operation, like reading from the network, accessing a database or the filesystem, instead of blocking the thread and wasting CPU cycles waiting, Node.js will resume the operations when the response comes back.
-
-This allows Node.js to handle thousands of concurrent connections with a single server without introducing the burden of managing thread concurrency, which could be a significant source of bugs.
-
-Node.js has a unique advantage because millions of frontend developers that write JavaScript for the browser are now able to write the server-side code in addition to the client-side code without the need to learn a completely different language.
-
-In Node.js the new ECMAScript standards can be used without problems, as you don't have to wait for all your users to update their browsers - you are in charge of deciding which ECMAScript version to use by changing the Node.js version, and you can also enable specific experimental features by running Node.js with flags.
+<img src=https://camo.githubusercontent.com/9d2feaa751d52a1fe07687e948add2476976c3532512d72bfa6412d0a4433680/68747470733a2f2f7473682e696f2f77702d636f6e74656e742f75706c6f6164732f666c792d696d616765732f31323834322f7768792d6e6f64652d6a732d383130783534302e6a7067>
